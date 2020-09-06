@@ -1,0 +1,47 @@
+/*微信提示浏览器打开*/
+        .popup {
+            height: 100%;
+            position: fixed;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            z-index: 11;
+        }
+        .popup img {width: 95%;}
+        .weixin-app-download-mask {
+            background-color: #000000;
+            height: 100%;
+            opacity: 0.6;
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+            top:0;
+        }
+/*微信提示浏览器打开*/
+
+/*浏览器版本过低*/
+.browserupgrade {
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    color: #f0d200;
+    background-color: #79A1E0;
+    background-image:url("../images/bg.png");
+    overflow: hidden;
+}
+
+.browserupgrade p {
+    font-size: 20px;
+    margin-top:10px; 
+    text-align: center;
+    color: #fff
+}
+
+.browserupgrade a {
+    text-decoration: none;
+    color: #f0d200
+}

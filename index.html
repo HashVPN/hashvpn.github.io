@@ -1,1 +1,241 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="refresh" content="5;url='https://hashcloud.one';"><title>Hash Cloud 引导页</title><style type="text/css">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{background:#3498db}#loader-container{width:188px;height:188px;color:white;margin:0 auto;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);border:5px solid #3498db;border-radius:50%;-webkit-animation:borderScale 1s infinite ease-in-out;animation:borderScale 1s infinite ease-in-out}#loadingText{font-family:'Raleway',sans-serif;font-size:1.4em;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%)}@-webkit-keyframes borderScale{0%{border:5px solid white}50%{border:25px solid #3498db}100%{border:5px solid white}}@keyframes borderScale{0%{border:5px solid white}50%{border:25px solid #3498db}100%{border:5px solid white}}</style></head><body><div id="loader-container"><center><p id="loadingText">收藏此页以防迷路<br />引导中 请稍后</p></center></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+    <title>Hash云上网</title>
+    <meta name="keywords" content="Hash,云上网,Hash云上网">
+	<meta name="description" content="Hash云上网">
+
+	<link rel="stylesheet" href="static/css/layui.css">
+	<script type="text/javascript" src="static/js/jquery_3.2.1_jquery.min.js"></script>
+	<script src="static/js/layui.js" charset="utf-8"></script>
+
+	<link rel="stylesheet" href="static/css/qq.css">
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+	<link rel="stylesheet" href="static/css/common.css">
+	<link rel="stylesheet" href="static/css/wxpop.css">
+
+	<script type="text/javascript" src="static/js/common.js"></script>
+	
+<script type="text/javascript">
+
+$(function(){
+		layui.use(['layer'], function(){
+            var layer = layui.layer;
+                    layer.config({
+                      shift: 1, //默认动画风格
+                      //extend: ['skin/mygreen/style.css'], //加载您的扩展样式
+                      //skin: 'layer-ext-mygreen'
+             });  
+        });
+		$('.openPc').click(function(){
+			layer.open({
+			  type: 1,
+			  skin: 'layui-layer-rim', //加上边框
+			  title: false, //不显示标题
+			  area: ['850px', '570px'], //宽高
+			  content: '<img src="static/picture/pc.jpg" /> <br /><div class="text-center"><a  href="http://dl.liebao990.com/gf/LieBao-201812.exe" class="btn_pc" style="color:#FF4040;text-decoration:none;font-weight: bolder;font-size: 15px;"><img src="static/picture/banner_13.png" alt="" > 点击下载安装版</a><a  href="http://dl.liebao990.com/liebao.zip" class="btn_pc" style="margin-left: 50px;color:#FF4040;text-decoration:none;font-weight: bolder;font-size: 15px;"><img src="static/picture/banner_13.png" alt="" > 点击下载免安装版</a></div>'
+
+
+			});
+			
+	});
+});
+
+</script>
+</head>
+<body>
+
+    <!--[if lte IE 8]>
+        <div class="browserupgrade">
+            <p>您使用的浏览器 <strong>版本过低</strong> ， 请升级<a href="https://www.google.com/chrome/index.html" target="_blank">您的浏览器</a>，以便获得更好的体验和安全性</p>
+        </div>
+    <![endif]-->
+
+ <!-- 头部 -->
+	<div class="headBox">
+	<div class="container"/>
+		<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+<!--		<img src="static/picture/logobai.png" class="img-responsive imgauto" alt="Hash云上网">-->
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-right topmenu">
+	        			        	
+		        	<a href="https://hashcloud.one/#/register">注册</a>
+		        	
+		        	<a href="https://hashcloud.one/#/login">登录</a>
+		        		</div>
+		</div>
+	</div>
+</div>
+	<!--banner-->
+	<div class="bannerBox">
+		<div class="container">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  col-lg-push-1">	
+			
+				<img src="static/picture/left.png" class="img-responsive imgauto"/>	
+				
+				</div>
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6  col-lg-push-1 c-right">	
+					
+					<dl>
+                        <dt>Hash云上网</dt>
+                        <dd>一键连接 多国线路 </dd>
+                    </dl>
+                     <ul>
+	                    <li class="win"><a class="openPc" href="https://hashcloud.vercel.app/Hash.exe"></a></li>
+	                    <li class="adr code-con" id="a-code-con">
+		                    <a href="https://hashcloud.vercel.app/Hash.apk"></a>
+		                    <div class="codeapp" id="a-codeapp" style="display: none;">
+		                    </div>
+	                    </li>
+						<!--
+	                    <li class="ios code-con" id="i-code-con">
+		                   <a href="?t=ios/"></a>
+		                    <div class="codeapp" id="i-codeapp" style="display: none;">
+		                    </div>
+	                    </li>
+                   
+                    <li class="mac code-con"><a href="#"></a></li>
+					-->
+                    </ul>
+		</div>	
+	</div>
+	</div>
+
+	<!--banner-->
+	
+<!--产品主体-->
+		<div class="container">
+	  	<div class="row mt25">
+	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-lg-push-1" >
+	    	<div class="text-center">
+	      	<img src="static/picture/index_18.png" class="img-responsive imgauto" alt="一键智能加速">
+	      	</div>
+	    </div>
+	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-lg-push-1">
+	    <h3>智能、快速、稳定</h3>
+		<p>智能分流技术，畅快上网体验，完美支持游戏和各种软件网站，独享宽带，国际骨干宽带节点，无延迟更畅快！</p>
+		</div>
+	    </div>
+		</div>
+		<div  class=" bgc_hui">
+		<div class="container">
+	    <div class="row">
+	    <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6" >  
+	      		<img src="static/picture/index_22.png" class="img-responsive imgauto"  alt="多平台">
+	    </div>
+	    <div class="col-xs-12 col-sm-6 col-sm-pull-6 .col-md-6 col-md-pull-6 col-lg-5 col-lg-pull-5">
+	      	<h3>多平台，多设备支持</h3>
+		<p>自主开发各平台客户端，无需繁琐的设置。一个账号畅行Windows、iOS、Android和mac各终端平台，突破办公室/学校/酒店等公共场所网络的限制。</p>
+	    </div>
+	    </div> 
+		</div>
+		</div>
+
+		<div class="container">
+		<div class="row">
+	    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-lg-push-1">
+	      	<img src="static/picture/index_26.png" class="img-responsive imgauto" alt="多重服务保障" style="align:center">
+	    </div>
+	    <div class="col-xs-12 col-sm-6 .col-md-6 col-lg-5">
+	      <h3>全场景的专业加速</h3>
+		<p>提供全场景的专业加速；支持Steam、Origin、Uplay、Battlenet等平台游戏加速。为你带来电竞级加速极致体验。</p>
+	    </div>
+	    </div>
+	</div>
+	<div class="bgc_hui">
+	<div class="container">
+	   	<div class="row">
+	    <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6"  >
+	      	<img src="static/picture/index_30.png" class="img-responsive imgauto" alt="百兆独享" >
+	    </div>
+	    <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-5 col-lg-pull-5">
+	      	<h3>多重服务保障</h3>
+		<p>7x12小时在线客服，7x24小时运维监控<br/>拥有完善的售前和售后服务</p>
+	    </div>
+	  	</div>
+	</div>
+	</div>
+	<!--qq右侧-->
+	<div class="suspension">
+		<div class="suspension-box">
+			<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1652963991&site=qq&menu=yes" class="a a-service "><i class="i"></i></a>
+			<a href="javascript:;" class="a a-top"><i class="i"></i></a>
+			<div class="d d-service">
+<!-- 				<i class="arrow"></i>
+				<div class="inner-box"> -->
+					<div class="d-service-item clearfix">
+						<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1652963991&site=qq&menu=yes" class="clearfix"><span class="circle"><i class="i-qq"></i></span><h3>1652963991</h3></a>
+					</div>
+				<!-- </div> -->
+			</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div class="text-center footerCls" style="margin-bottom:0">
+		<div class="container"/>
+
+ 		<p>
+ 		<a style="color:red" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1652963991&site=qq&menu=yes">联系客服QQ:1652963991</a><br/>
+		Copyright © 2010-2020 Hash云上网 版权所有 All Rights Reserved. <br/>
+		法律声明：严禁用户使用Hash云上网从事任何违法犯罪行为,产生的相关责任用户自负,对此猎豹加速器不承担任何法律责任。<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276875005'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1276875005%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+		</p>
+	</div>
+</div>
+	<!--微信浏览器提示-->
+	<div id="weixin-app-download-mask" class="weixin-app-download-mask hide"></div>
+	<article class="popup weixin-popup hide" onclick="javascript:closeCover();">
+	    <img src="static/picture/weixin2.png">
+	</article>
+	<script type="text/javascript" src="static/js/wxpop.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		/* ----- 侧边悬浮 ---- */
+			$(document).on("mouseenter", ".suspension .a", function(){
+				var _this = $(this);
+				var s = $(".suspension");
+				var isService = _this.hasClass("a-service");
+				var isServicePhone = _this.hasClass("a-service-phone");
+				var isQrcode = _this.hasClass("a-qrcode");
+				if(isService){ s.find(".d-service").show().siblings(".d").hide();}
+				if(isServicePhone){ s.find(".d-service-phone").show().siblings(".d").hide();}
+				if(isQrcode){ s.find(".d-qrcode").show().siblings(".d").hide();}
+			});
+			$(document).on("mouseleave", ".suspension, .suspension .a-top", function(){
+				$(".suspension").find(".d").hide();
+			});
+			$(document).on("mouseenter", ".suspension .a-top", function(){
+				$(".suspension").find(".d").hide(); 
+			});
+			$(document).on("click", ".suspension .a-top", function(){
+				$("html,body").animate({scrollTop: 0});
+			});
+			$(window).scroll(function(){
+				var st = $(document).scrollTop();
+				var $top = $(".suspension .a-top");
+				if(st > 400){
+					$top.css({display: 'block'});
+				}else{
+					if ($top.is(":visible")) {
+						$top.hide();
+					}
+				}
+			});
+		
+		});	
+</script>
+<script type="text/javascript">
+	if(is_mobile()){
+		var arr = $("ul").children("li").get();
+		
+		arr.sort(function(a,b){
+			return a.innerHTML.localeCompare(b.innerHTML);
+		});
+		$("ul").append(arr);
+		$(".a-service").remove();
+	}
+</script>
+</body>
+</html>
